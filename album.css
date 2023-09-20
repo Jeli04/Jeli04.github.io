@@ -37,3 +37,30 @@
   }
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/* CSS styles for the image container */
+.image-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+/* CSS styles for the cropped image */
+.cropped-image {
+  width: 100%; /* Set the width of the image to 100% to make it responsive */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+}
+
+/* CSS styles for the image container */
+.image-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+/* CSS styles for the resized image */
+.resized-image {
+  width: 100%; /* Set the desired width */
+  height: 350px; /* Set the desired height */
+  object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+}
