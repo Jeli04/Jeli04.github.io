@@ -14,17 +14,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
     <main role="main">
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Projects</h1>
+    <section class="jumbotron text-center">
+        <div class="container">  
+          <h1 class="jumbotron-heading">Experiences</h1>
           <p class="lead text-muted">Below are some of my ongoing and past projects.</p>
           <p>
             <a href="#" class="btn btn-primary my-2">Main call to action</a>
             <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </section>
+      <section class="jumbotron text-center">
+        <div class="container">  
+          <h1 class="jumbotron-heading">Projects</h1>
+          <p class="lead text-muted">Below are some of my ongoing and past projects.</p>
+          <p>
+            <a href="https://github.com/Jeli04" class="btn btn-primary my-2">Link to Github</a>
           </p>
         </div>
       </section>
