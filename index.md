@@ -5,30 +5,38 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
-
     <title>Projects for Bootstrap</title>
-
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
-
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
     <main role="main">
-    <section class="jumbotron text-center">
+    <section id = "homepage" class="jumbotron text-center">
+        <div class="container center">  
+          <h1 id = "typewriter-text" class="jumbotron-heading">Jerry Li</h1>
+          <h3 class="jumbotron-heading">UCR Undergraduate</h3>
+          <script src="assets/javascript/main_page.js"></script>
+          <!-- <p class="lead text-muted">I am currently conducting research at the <a href="https://cisl.ucr.edu">Collaborative Intelligence Systems Lab</a> (CISL) at UCR led by Dr. Qiu. Within CISL I am part of the perception team and I am currently working on two projects: Perception Module and Multimodal Perception.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p> -->
+        </div>
+      </section>
+    <section id="research" class="jumbotron text-center hidden">
         <div class="container">  
-          <h1 class="jumbotron-heading">Experiences</h1>
-          <p class="lead text-muted">Below are some of my ongoing and past projects.</p>
+          <h1 class="jumbotron-heading">Research</h1>
+          <p class="lead text-muted">I am currently conducting research at the <a href="https://cisl.ucr.edu">Collaborative Intelligence Systems Lab</a> (CISL) at UCR led by Dr. Qiu. Within CISL I am part of the perception team and I am currently working on two projects: Perception Module and Multimodal Perception.</p>
           <p>
             <a href="#" class="btn btn-primary my-2">Main call to action</a>
             <a href="#" class="btn btn-secondary my-2">Secondary action</a>
           </p>
         </div>
       </section>
-      <section class="jumbotron text-center">
+      <section id = "projects" class="jumbotron text-center hidden">
         <div class="container">  
           <h1 class="jumbotron-heading">Projects</h1>
           <p class="lead text-muted">Below are some of my ongoing and past projects.</p>
@@ -37,7 +45,7 @@
           </p>
         </div>
       </section>
-      <div class="album py-5 bg-light">
+      <div id = "projects-table" class="album py-5 bg-light hidden">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -148,5 +156,6 @@
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="assets/javascript/main_page.js"></script>
   </body>
 </html>

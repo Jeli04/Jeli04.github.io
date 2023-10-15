@@ -64,3 +64,14 @@
   height: 350px; /* Set the desired height */
   object-fit: cover; /* Maintain aspect ratio and crop if necessary */
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.hidden {
+  display: none;
+}
