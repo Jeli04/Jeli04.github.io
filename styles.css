@@ -70,8 +70,32 @@
   justify-content: center;
   align-items: center;
   height: 50vh;
+  flex-direction: column;
 }
 
 .hidden {
   display: none;
+}
+
+/* CSS styles for the image container */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  display: block; /* Ensures each image/link is on a new line */
+}
+
+.social-icons img {
+  width: 30px; /* Set the desired width for the images */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
 }

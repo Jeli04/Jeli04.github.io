@@ -18,21 +18,27 @@
         <div class="container center">  
           <h1 id = "typewriter-text" class="jumbotron-heading">Jerry Li</h1>
           <h3 class="jumbotron-heading">UCR Undergraduate</h3>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/jeli.04/" target="_blank"><img src="images/instagram-icon.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/jerryli2025/" target="_blank"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Jeli04" target="_blank"><img src="images/github-icon.png" alt="GitHub"></a>
+            <!-- Add more social media images and links as needed -->
+          </div>
           <script src="assets/javascript/main_page.js"></script>
-          <!-- <p class="lead text-muted">I am currently conducting research at the <a href="https://cisl.ucr.edu">Collaborative Intelligence Systems Lab</a> (CISL) at UCR led by Dr. Qiu. Within CISL I am part of the perception team and I am currently working on two projects: Perception Module and Multimodal Perception.</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p> -->
         </div>
-      </section>
-    <section id="research" class="jumbotron text-center hidden">
+    </section>
+    <section id = "about" class="jumbotron text-center">
+        <div class="container">  
+          <h1 class="jumbotron-heading">About Me</h1>
+          <p class="lead text-muted">Hello and welcome to my Profolio Website! I'm Jerry and I am currently a undergraduate student studying Computer Science at UCR. I am very interested in AI/ML, specifcally in NLP. I've also worked on other categories of Software Development such as Android App Development, Game Development, Web Development, and more recently some Blockchain. In my freetime I enjoy exercising (usually gym or tennis), watching movies with friends, and gaming.</p>
+        </div>
+    </section>
+      <section id="research" class="jumbotron text-center hidden">
         <div class="container">  
           <h1 class="jumbotron-heading">Research</h1>
           <p class="lead text-muted">I am currently conducting research at the <a href="https://cisl.ucr.edu">Collaborative Intelligence Systems Lab</a> (CISL) at UCR led by Dr. Qiu. Within CISL I am part of the perception team and I am currently working on two projects: Perception Module and Multimodal Perception.</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            <a href="https://cisl.ucr.edu" class="btn btn-primary my-2">Link to Lab Website</a>
           </p>
         </div>
       </section>
@@ -61,7 +67,7 @@
                         <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
                       </a>
                     </div>
-                    <small class="text-muted">September 2023 - Now</small>
+                    <small class="text-muted">September 2023 - October 2023</small>
                   </div>
                 </div>
               </div>
@@ -138,6 +144,44 @@
           </div>
         </div>
       </div>
+    <section id = "activities" class="jumbotron text-center">
+      <div class="container">  
+        <h1 class="jumbotron-heading">Activities</h1>
+        <p class="lead text-muted">Currently at UCR I am also part of two extracirricular activities on campus</p>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-body">
+              <p class="card-text">I am currently Interning as a board member at <a href="https://acm.cs.ucr.edu">ACM@UCR</a>. My current responsibilites are planning General Meeting and other Events as well as leading a Build A MiniGPT workshop series for the Winter 2024 quarter.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/Jeli04/transformer-translator" target="_blank">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                  </a>
+                </div>
+                <small class="text-muted">September 2023 - October 2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-body">
+              <p class="card-text">Trained a Pytorch Neural Network to learn how to play TicTacToe usingReinforcement Learning and Monte Carlo Value Estimation.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/Jeli04/TicTacToeNeuralNetwork" target="_blank">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                  </a>
+                </div>
+                <small class="text-muted">August 2023 - September 2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </main>
     <footer class="text-muted">
       <div class="container">
