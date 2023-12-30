@@ -22,7 +22,6 @@
     </style>
   </head>
   <body>
-    <div>
     <main role="main">
     <section id = "homepage" class="jumbotron text-center">
         <div class="container center">  
@@ -138,7 +137,9 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="image-container">
+                  <img class="card-img-top resized-image" src="images/capstone.png" alt="Card image cap">
+                </div>                
                 <div class="card-body">
                   <p class="card-text">This is a Social Anxiety Discorder Awareness Website created for my High School CS Pathway Capstone Project. We designed it through Figma and deployed a embedded Chatbot using Flask as our framework.</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -160,28 +161,32 @@
         <p class="lead text-muted">Currently at UCR I am also part of two extracirricular activities on campus</p>
       </div>
     </section>
-      <div class="row mx-auto text-center">
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <div class="card-body">
-              <p class="card-text">I am currently Interning as a board member at <a href="https://acm.cs.ucr.edu">ACM@UCR</a>. My current responsibilites are planning General Meeting and other Events as well as leading a Build A MiniGPT workshop series for the Winter 2024 quarter.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">September 2023 - Current</small>
+    <div class="album py-5 bg-light">
+      <div class = "container">
+        <div class="row mx-auto text-center">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <p class="card-text">I am currently Interning as a board member at <a href="https://acm.cs.ucr.edu">ACM@UCR</a>. My current responsibilites are planning General Meeting and other Events as well as leading a Build A MiniGPT workshop series for the Winter 2024 quarter.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">September 2023 - Current</small>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <div class="card-body">
-              <p class="card-text">During the Fall 2023 Quarter I helepd start a new club on campus called Career Ciphers. As Vice President, our goal is to help better educate our peers on campus on the job/internship process for Software Engineering. So far I've helped lead weekly leetcode and puzzle reviews, and a resume workshop for 15+ students.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">September 2023 - Current</small>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <div class="card-body">
+                <p class="card-text">During the Fall 2023 Quarter I helepd start a new club on campus called Career Ciphers. As Vice President, our goal is to help better educate our peers on campus on the job/internship process for Software Engineering. So far I've helped lead weekly leetcode and puzzle reviews, and a resume workshop for 15+ students.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">September 2023 - Current</small>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </main>
     <footer class="text-muted">
       <div class="container">
