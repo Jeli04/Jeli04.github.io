@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('images/background.jpg');
+        background-size: cover; /* or contain, depending on your preference */
+        background-attachment: fixed;
+      }
+    </style>
   </head>
   <body>
     <main role="main">
