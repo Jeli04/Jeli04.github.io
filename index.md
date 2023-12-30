@@ -22,6 +22,7 @@
     </style>
   </head>
   <body>
+    <div>
     <main role="main">
     <section id = "homepage" class="jumbotron text-center">
         <div class="container center">  
@@ -157,19 +158,15 @@
       <div class="container">  
         <h1 class="jumbotron-heading">Activities</h1>
         <p class="lead text-muted">Currently at UCR I am also part of two extracirricular activities on campus</p>
-      <div class="container">
-      <div class="row">
+      </div>
+    </section>
+      <div class="row mx-auto text-center">
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
             <div class="card-body">
               <p class="card-text">I am currently Interning as a board member at <a href="https://acm.cs.ucr.edu">ACM@UCR</a>. My current responsibilites are planning General Meeting and other Events as well as leading a Build A MiniGPT workshop series for the Winter 2024 quarter.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://github.com/Jeli04/transformer-translator" target="_blank">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                  </a>
-                </div>
-                <small class="text-muted">September 2023 - October 2023</small>
+                <small class="text-muted">September 2023 - Current</small>
               </div>
             </div>
           </div>
@@ -177,20 +174,14 @@
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
             <div class="card-body">
-              <p class="card-text">Trained a Pytorch Neural Network to learn how to play TicTacToe usingReinforcement Learning and Monte Carlo Value Estimation.</p>
+              <p class="card-text">During the Fall 2023 Quarter I helepd start a new club on campus called Career Ciphers. As Vice President, our goal is to help better educate our peers on campus on the job/internship process for Software Engineering. So far I've helped lead weekly leetcode and puzzle reviews, and a resume workshop for 15+ students.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://github.com/Jeli04/TicTacToeNeuralNetwork" target="_blank">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                  </a>
-                </div>
-                <small class="text-muted">August 2023 - September 2023</small>
+                <small class="text-muted">September 2023 - Current</small>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
     </main>
     <footer class="text-muted">
       <div class="container">
