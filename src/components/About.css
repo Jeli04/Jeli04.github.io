@@ -1,0 +1,8 @@
+/* src/components/About.css */
+
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
