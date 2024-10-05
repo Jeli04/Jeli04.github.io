@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Jeli04.github.io/static/css/main.d7113a74.css",
+    "main.js": "/Jeli04.github.io/static/js/main.527a5b06.js",
+    "static/js/453.e90168bd.chunk.js": "/Jeli04.github.io/static/js/453.e90168bd.chunk.js",
+    "static/media/profile.jpg": "/Jeli04.github.io/static/media/profile.b5fd0a9f0c5d6f4a71d3.jpg",
+    "index.html": "/Jeli04.github.io/index.html",
+    "main.d7113a74.css.map": "/Jeli04.github.io/static/css/main.d7113a74.css.map",
+    "main.527a5b06.js.map": "/Jeli04.github.io/static/js/main.527a5b06.js.map",
+    "453.e90168bd.chunk.js.map": "/Jeli04.github.io/static/js/453.e90168bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7113a74.css",
+    "static/js/main.527a5b06.js"
+  ]
+}
