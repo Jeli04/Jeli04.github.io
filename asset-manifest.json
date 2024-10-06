@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Jeli04.github.io/static/css/main.b199a125.css",
+    "main.js": "/Jeli04.github.io/static/js/main.4c806f99.js",
+    "static/media/profile.jpg": "/Jeli04.github.io/static/media/profile.b5fd0a9f0c5d6f4a71d3.jpg",
+    "index.html": "/Jeli04.github.io/index.html",
+    "main.b199a125.css.map": "/Jeli04.github.io/static/css/main.b199a125.css.map",
+    "main.4c806f99.js.map": "/Jeli04.github.io/static/js/main.4c806f99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b199a125.css",
+    "static/js/main.4c806f99.js"
+  ]
+}
