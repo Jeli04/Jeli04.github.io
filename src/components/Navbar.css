@@ -44,6 +44,20 @@
     color: #f4f4f4;
 }
 
+.toggle-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.menu-toggle {
+    display: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
@@ -60,10 +74,14 @@
         display: flex;
     }
 
-    /* Toggle button for mobile */
+    /* Show menu toggle button */
     .menu-toggle {
         display: block;
-        cursor: pointer;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
     }
 }
 

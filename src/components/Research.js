@@ -1,22 +1,27 @@
-// src/components/About.js
+// src/components/Research.js
 
 import React from 'react';
-import './About.css';
-import profile from '../assets/profile.jpg'; // Add your profile picture in src/assets/
+import './Research.css';
 
-const About = () => {
+const Research = () => {
     return (
-        <section id="about" className="section">
+        <section id="research" className="section" data-aos="fade-up">
             <div className="container">
-                <h1>About Me</h1>
-                <img src={profile} alt="Profile" className="profile-pic" />
+                <h1>Research</h1>
                 <p>
-                    Welcome! I am [Your Name], a PhD/Master student in Computer Science at UC Riverside.
-                    My interests include [Your Interests].
+                    My research focuses on Computer Vision for Autnomous Driving and 
+                    Naural Language Processing for LLMs. I am particularly interested in Multimodality, LLM reasoning,
+                    and interpretability. I'm currently in the process of finalizing multple projects and publications
+                    that will hopefully be released soon. Below are the labs I've worked in so far. 
                 </p>
+                <ul>
+                    <li><strong>Collaborative Intelligent Systems Lab:</strong> <a href="https://cisl.ucr.edu">CISL Homepage.</a></li>
+                    <li><strong>Wireless Communications Sensing and Networking:</strong> <a href="https://wcsng.ucsd.edu">WCSNG Homepage.</a></li>
+                    {/* Add more publications as needed */}
+                </ul>
             </div>
         </section>
     );
-}
+};
 
-export default About;
+export default Research;

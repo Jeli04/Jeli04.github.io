@@ -5,11 +5,11 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <section id="projects" className="section">
+        <section id="projects" className="section" data-aos="fade-up">
             <div className="container">
                 <h1>Projects</h1>
                 <p>Here are some of the projects I have worked on:</p>
-                <div className="project">
+                <div className="project" data-aos="fade-up" data-aos-delay="100">
                     <h2>Project Title</h2>
                     <p>Description of the project. Technologies used: [Tech Stack].</p>
                     <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
@@ -18,6 +18,6 @@ const Projects = () => {
             </div>
         </section>
     );
-}
+};
 
 export default Projects;
