@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"npm --version\")",
+      "Bash(powershell.exe -Command \"Test-Path ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd''\")",
+      "Bash(powershell.exe -Command \"& ''C:\\\\Program Files\\\\nodejs\\\\npm.cmd'' --version\")",
+      "Bash(powershell.exe -Command:*)",
+      "Bash(npm init -y)",
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
