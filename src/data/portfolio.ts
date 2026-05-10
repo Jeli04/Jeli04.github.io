@@ -37,13 +37,6 @@ export const portfolioData: Portfolio[] = [
     projectUrl: "https://devpost.com/software/papersync",
   },
   {
-    title: "TicTacToe Neural Network",
-    description:
-      "Trained a PyTorch Neural Network to learn how to play TicTacToe.",
-    technologies: ["Python", "PyTorch"],
-    codeUrl: "https://github.com/Jeli04/TicTacToeNeuralNetwork",
-  },
-  {
     title: "C++ Grad Engine",
     description:
       "C++ based grad engine to replicate a mini PyTorch with CPU parallelization support.",

@@ -10,29 +10,47 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "2025—Present",
+    date: "May 2026 - August 2026",
+    title: "Research Intern",
+    company: "Samsung Research America",
+    description:
+      "AI and Robot Intelligence Research",
+    companyUrl: "https://sra.samsung.com/",
+  },
+  {
+    date: "December 2025 - Present",
+    title: "Research Assistant",
+    company: "ALLeGRo Lab @ USC",
+    description:
+      "AI, Language, Learning, Generalization, and Robustness Lab",
+    companyUrl: "https://allegro-lab.github.io/",
+  },
+  {
+    date: "July 2025 - Novemeber 2025",
     title: "Research Assistant",
     company: "FORTIS Lab @ USC",
     description:
-      "Foundations Of Robust Trustworthy Intelligent Systems",
+      "Foundations Of Robust Trustworthy Intelligent Systems Lab",
     companyUrl: "https://viterbi-web.usc.edu/~yzhao010/lab.html",
   },
   {
-    date: "2025",
+    date: "June 2025 - December 2025",
     title: "Machine Learning Engineer Intern",
-    company: "NexaAI",
+    company: "NexaAI (Acquired by Qualcomm)",
+    description:
+      "Worked on deploying multimodal ML models on edge devices for text, video, and speech understanding, and helped prototype HyperLink's on-device Video RAG pipeline.",
     companyUrl: "https://nexa.ai",
   },
   {
-    date: "Summer 2024",
+    date: "June 2024 - September 2024",
     title: "Research Intern",
-    company: "WCSNG Lab @ UCSD",
+    company: "WCSNG Lab @ UCSD, Qualcomm Institute",
     description:
-      "Wireless Communications Sensing and Networking",
+      "Wireless Communications Sensing and Networking Lab",
     companyUrl: "https://wcsng.ucsd.edu/",
   },
   {
-    date: "2023—Present",
+    date: "November 2023 - Present",
     title: "Research Assistant",
     company: "CISL Lab @ UCR",
     description:

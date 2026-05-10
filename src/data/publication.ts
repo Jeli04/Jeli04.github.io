@@ -13,8 +13,8 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   {
-    year: "2025",
-    conference: "arxiv",
+    year: "2026",
+    conference: "ACL",
     title: "Are LLMs Reliable Rankers? Rank Manipulation via Two-Stage Token Optimization",
     authors: "Tiancheng Xing, Jerry Li, Yixuan Du, Xiyang Hu",
     paperUrl: "https://arxiv.org/pdf/2510.06732",
@@ -22,8 +22,8 @@ export const publicationData: Publication[] = [
     imageUrl: "/images/raf.png",
   },
   {
-    year: "2025",
-    conference: "arxiv",
+    year: "2026",
+    conference: "Amazon Trusted AI Symposium",
     title: "Beyond ROUGE: N-Gram Subspace Features for LLM Hallucination Detection",
     authors: "Jerry Li, Evangelos Papalexakis",
     paperUrl: "https://arxiv.org/pdf/2509.05360",
